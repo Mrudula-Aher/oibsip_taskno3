@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+h1{
+    font-family: 'Bona Nova', serif;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Preahvihear', sans-serif;
+font-family: 'Raleway', sans-serif;
+color: #542f8f;
+}
+.container {
+    text-align: center;
+    background-color: rgb(241, 241, 247);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: hsl(256, 39%, 52%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #542f8f;
+}
